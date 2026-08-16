@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# per-turn protocol traffic the server writes into the player folders
+racer-2p/*-player/obs.npy
+racer-2p/*-player/obs.png
+racer-2p/*-player/state.json
+racer-2p/*-player/action.json
+*.tmp
+
+# race recordings (media/ is committed explicitly)
+racer-2p/*.mp4
+race.mp4
